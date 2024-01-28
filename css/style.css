@@ -1,0 +1,92 @@
+
+body
+{
+    background-color: #000;
+}
+.nav-footer , .nav-side li, .bars-x , .share
+{
+    cursor: pointer;
+}
+.nav-side
+{
+display: flex;
+position: fixed;
+left:0;
+top: 0;
+width: 20%;
+min-height: 100vh;
+z-index: 9999;
+}
+.nav-links
+{
+    background-color: #000;
+    color: white;
+}
+.nav-links li
+{
+font-size: large;
+margin-bottom: 5px;
+}
+.loading
+{
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: fixed;
+top:0;
+left:0;
+right: 0 ;
+bottom: 0;
+z-index: 999999;
+background-color: #000;
+}
+
+.img-logo
+{
+    border-radius: 5px;
+}
+
+.img-logo img
+{
+    width: 40px;
+}
+
+
+
+.innercontainer
+{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.layer
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffa1;
+    transition: all 1s ease;
+    
+}
+.innercontainer:hover .layer
+{
+top: 0;
+overflow: auto;
+}
+
+.fa-x
+{
+    display: none;
+}
+
+.areas
+{
+    cursor: pointer;
+}
